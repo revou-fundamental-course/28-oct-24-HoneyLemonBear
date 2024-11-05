@@ -1,0 +1,22 @@
+header{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+    font-size: 15px;
+    width: 75%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+.InputAngka{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
