@@ -18,22 +18,50 @@
             </div>
             <form>
                 <div>
-                    <label for="Berat-Badan">Berat Badan (kg)</label>
-                    <input class="InputAngka" id="Berat-Badan" type="number">
+                    <label for="beratbadan">Berat Badan (kg)</label>
+                    <input class="inputangka" id="beratbadan" type="number">
                 </div>
                 <div>
                     <label for="Usia">Usia (tahun)</label>
-                    <input class="InputAngka" id="Usia" type="number">
+                    <input class="inputangka" id="usia" type="number">
                 </div>
                 <div>
-                    <label for="Tinggi-Badan">Tinggi badan (cm)</label>
-                    <input class="InputAngka" id="Tinggi-Badan" type="number">
+                    <label for="tinggiadan">Tinggi Badan (cm)</label>
+                    <input class="inputangka" id="tinggibadan" type="number">
                 </div>
                 <div>
-                    <button>Hitung BMI</button>
-                    <button>Reset</button>
+                    <button class="btn1" id="btnhitung" onclick=hitungbmi()>Hitung BMI</button>
+                    <button class="btn1" onclick=()>Reset</button>
                 </div>
              </form>
+            <div>
+                <header style="margin-top: 25px;">Keunggulan Fitur</header>
+                <article>
+                    <p>1. Menghitung berat badan</p>
+                    <p>2. Menentukan kategori berat badan ideal atau tidak</p>
+                    <p>3. Mempersiapkan program penurunan berat badan</p>
+                    <p style="margin-top: 30px;">Kalkulator ini hanya boleh digunakan orang dewasa (wanita hamil atau menyusui tidak boleh mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter. </p>
+                    <p>Kalkulator akan memberi Anda gambaran tentang perbandingan berat badan Anda dengan nilai umum. Indeks Massa Tubuh atau (BMI) dihitung sebagai berat badan Anda (dalam kilogram) dibagi dengan kuadrat tinggi badan Anda (dalam meter) atau BMI = Kg/M<sup>2</sup>.</p>
+                </article>
+            </div>
+        </section>
+        <section>
+            <div>
+                <Header><h1>Hasil</h1></Header>
+            </div>
+            <form>
+                <p></p>
+            </form>
+            <div>
+                <article>
+                    <p>Hasil BMI di antara</p>
+                    <p>Anda berada dalam kategori...</p>
+                </article>
+            </div>
+            <div>
+                <button>Konsultasi Ahli Gizi Via Aplikasi</button>
+                <button>Registrasi Online Ahli Gizi</button>
+            </div>
         </section>
 </main>
 </body>
