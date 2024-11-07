@@ -75,10 +75,25 @@ form{
 #pernyataan1{
     font-size: large;
 }
+
 #hasilbmi{
     font-size: xx-large;
     font-weight: bold;
 }
+
+#bmiimage1{
+    width: 100%;
+}
+#bmiimage2{  
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    display: none;
+}
+#bmiimage3{
+    width: 100%;
+}
+
 .penjelasan{
     text-align: left;
     text-align: justify;
